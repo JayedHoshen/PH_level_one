@@ -1,0 +1,10 @@
+# 1. One time each project to start git
+git init 
+
+# 2. every time to add
+git add .
+
+# 3. every time you commit
+git commit -m "first commit"
+
+# 4. 
