@@ -1,0 +1,25 @@
+.blog {
+  background-color: pink;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#second-blog {
+  background-color: paleturquoise;
+  /* display: none; */
+  /* visibility: hidden; */
+}
+
+#adipisicing {
+  color: red;
+  border: 4px solid black;
+  width: 100px;
+  height: 200px;
+  display: block;
+}
+
+li {
+  display: inline;
+}

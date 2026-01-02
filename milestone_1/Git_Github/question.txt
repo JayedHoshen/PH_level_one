@@ -1,0 +1,14 @@
+
+গিট এবং গিটহাব রিলেটেড কিছু ইন্টারভিউ প্রশ্ন নিচে দেওয়া হলো। এই প্রশ্নগুলোর উত্তর খুঁজে বের করে নিজের মতো করে নোট করে ফেলার চেষ্টা করবে। ভবিষ্যতে দরকার হলে তখন এইখান থেকে দেখে নিতে পারবে। 
+
+১) What is Git? What are the advantages of using Git?
+
+২) What do you understand by the term ‘Version Control System’?
+
+৩) What’s the difference between Git and GitHub?
+
+৪) Name a few Git commands with their function.
+
+৫) Difference between git fetch and git pull.
+
+আরও কিছু প্রশ্ন কালেক্ট করতে গুগল মামাকে জিজ্ঞেস করতে পারোঃ git and github interview questions for beginners.
