@@ -1,0 +1,23 @@
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 15px;
+}
+
+nav li:hover {
+  background-color: wheat;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: darkgray;
+}
+
+footer p {
+  padding: 5px 0;
+}
