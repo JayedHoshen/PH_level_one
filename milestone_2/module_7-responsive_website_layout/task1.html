@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-One</title>
+    <style>
+      .container {
+        border-radius: 10px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: space-between;
+      }
+      .left {
+        width: 35vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+      .right {
+        width: 60vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+        border-radius: 10px;
+      }
+      @media screen and (max-width: 576px) {
+        .container {
+          flex-direction: column;
+        }
+        .container .left,
+        .container .right {
+          width: 100%;
+        }
+        .left {
+          height: 30vh;
+        }
+        .right {
+          height: 60vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">Left</div>
+      <div class="right">Right</div>
+    </div>
+  </body>
+</html>

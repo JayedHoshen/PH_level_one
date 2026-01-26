@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <style>
+      .container {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 200px);
+      }
+      .container img {
+        width: 100%;
+        height: 100%;
+      }
+      .big-layout {
+        grid-column: span 6;
+        grid-row: span 2;
+      }
+      .mid-layout {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      .middle-layout {
+        grid-column: span 2;
+        grid-row: span 1;
+      }
+      .small-layout {
+        grid-column: span 1;
+        grid-row: span 1;
+      }
+
+      @media screen and (max-width: 576px) {
+        .container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .big-layout,
+        .mid-layout,
+        .middle-layout,
+        .small-layout {
+          grid-column: span 1;
+          grid-row: span 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item big-layout"><img src="./images/A.jpg" alt="" /></div>
+      <div class="item mid-layout"><img src="./images/B.jpg" alt="" /></div>
+      <div class="item mid-layout"><img src="./images/C.jpg" alt="" /></div>
+      <div class="item middle-layout"><img src="./images/D.jpg" alt="" /></div>
+      <div class="item middle-layout"><img src="./images/F.jpg" alt="" /></div>
+      <div class="item mid-layout"><img src="./images/G.jpg" alt="" /></div>
+      <div class="item small-layout"><img src="./images/H.jpg" alt="" /></div>
+      <div class="item small-layout"><img src="./images/A.jpg" alt="" /></div>
+      <div class="item mid-layout"><img src="./images/I.jpg" alt="" /></div>
+      <div class="item small-layout"><img src="./images/D.jpg" alt="" /></div>
+      <div class="item small-layout"><img src="./images/C.jpg" alt="" /></div>
+    </div>
+  </body>
+</html>
