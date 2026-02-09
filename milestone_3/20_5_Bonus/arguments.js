@@ -1,0 +1,6 @@
+function add(num1, num2) {
+  console.log(num1, num2);
+  console.log(arguments); // array like object
+  console.log(arguments[3]);
+}
+add(20, 30, 50, 10, 80);
